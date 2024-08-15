@@ -152,3 +152,16 @@ img, video {
     font-size: 1.2em;
     color: #777;
 }
+.title {
+    color: #363636;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+.title.is-1 {
+    font-size: 3rem;
+}
+
+.title:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
