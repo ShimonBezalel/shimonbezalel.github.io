@@ -122,3 +122,33 @@ img, video {
     flex: 1 1 30%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+/* styles.css */
+.project-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    margin: 10px 0;
+}
+
+.project-image {
+    width: 100%;
+    max-width: 400px; /* Adjust this as needed */
+    height: 400px; /* Explicit height to maintain square */
+    object-fit: cover; /* Ensures the entire image fits within the square */
+    aspect-ratio: 1 / 1; /* Ensures the image stays square */
+    border-radius: 5px; /* Optional: adds slight rounding to the corners */
+    margin: 0 auto;
+}
+
+.project h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.project p {
+    margin-top: 5px;
+    font-size: 1.2em;
+    color: #777;
+}
