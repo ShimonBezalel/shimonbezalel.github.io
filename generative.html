@@ -38,14 +38,152 @@
 </header>
 
 <section id="thesis-project">
-    <h1 class="title center-title is-1 publication-title">Generative AI Manipulation for Naturalistic<br>3D Texture Synthesis</h1>
-    <div class="video-container">
-        <video src="static/images/demo1080.mp4" width="600" height="400" autoplay loop controls></video>
-    </div>
-    <p class="intro">This thesis project focuses on generating organic forms and textures by leveraging 3D Generative AI.</p>
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title">Generative AI Manipulation for 3D Texture Synthesis</h1>
+                        <div class="is-size-5 publication-authors">
+                            <!-- Paper authors -->
+                            <span class="author-block">
+                <a href="https://shimonbezalel.github.io/" target="_blank">Shimon Bezalel</a>,</span>
+                            <span class="author-block">
+                  <a href="https://www.amitzoran.com/" target="_blank">Amit Zoran</a></span>
+                            <span class="author-block">
+                  </span>
+                        </div>
 
-    <h2>Abstract</h2>
-    <p>Deep generative models have revolutionized 2D image tasks, including manipulation, style transfer, and novel image synthesis, enabling neural networks to create complex and aesthetically appealing visuals. However, similar progress in 3D object generation has been hindered, partly due to the scarcity of large, diverse datasets. In response, we present Deep Single-Object Manipulation (DeepSOM), a novel 3D manipulation framework based on a convolutional backbone. Our approach requires only a single input pair: a source object for manipulation and a primitive proxy. These inputs are augmented through random free-form deformations to generate a diverse training dataset. The model learns to map deformations of the primitive to corresponding changes in the complex object, allowing even minor perturbations to produce highly variant shapes. We evaluate DeepSOM's effectiveness in "freehand" synthesis of spatially textured surfaces, demonstrating its potential for both graphical renderings and the creation of physical objects.</p>
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">The Hebrew University, School of Computer Science and Engineering<br></span>
+                        </div>
+
+                        <div class="column has-text-centered">
+                            <div class="publication-links">
+                                <!-- Arxiv PDF link -->
+                                <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                           class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                                <!-- Supplementary PDF link -->
+                                <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                         class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                                <!-- Github link -->
+                                <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                       class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                                <!-- ArXiv abstract Link -->
+                                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaser video-->
+    <section class="hero teaser">
+        <div class="container is-max-desktop">
+            <div class="hero-body">
+                <video poster="" id="tree" autoplay controls muted loop height="100%">
+                    <!-- Your video here -->
+                    <source src="static/images/teaser.mp4"
+                            type="video/mp4">
+                </video>
+                <h2 class="subtitle has-text-centered has-text-justified">
+                    This video showcases how the complex mushroom shape (opaque white) can be directly manipulated using a simplified form (transparent green). Our model seamlessly generates corresponding 3D shapes in the complex domain, enabling precise and intuitive edits.
+                </h2>
+            </div>
+        </div>
+    </section>
+    <!-- End teaser video -->
+
+    <!-- Paper abstract -->
+    <section class="section hero is-light">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                            Generative AI models have revolutionized 2D image tasks, including manipulation, style transfer, and novel image synthesis, enabling neural networks to create complex and aesthetically appealing visuals. However, similar progress in 3D object generation has been hindered, partly due to the scarcity of large, diverse datasets. In response, we present Deep Single-Object Manipulation (DeepSOM), a novel 3D manipulation framework based on a convolutional backbone. Our approach requires only a single input pair: a source object for manipulation and a primitive proxy. These inputs are augmented through random free-form deformations to generate a diverse training dataset. The model learns to map deformations of the primitive to corresponding changes in the complex object, allowing even minor perturbations to produce highly variant shapes. We evaluate DeepSOM's effectiveness in "freehand" synthesis of spatially textured surfaces, demonstrating its potential for both graphical renderings and the creation of physical objects.                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End paper abstract -->
+
+    <!-- Image carousel -->
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container">
+                <div id="results-carousel" class="carousel results-carousel">
+                    <div class="item">
+                        <!-- Your image here -->
+                        <img src="static/images/texture_sample_1.jpg" alt="MY ALT TEXT"/>
+                        <h2 class="subtitle has-text-centered">
+                            First image description.
+                        </h2>
+                    </div>
+                    <div class="item">
+                        <!-- Your image here -->
+                        <img src="static/images/texture_sample_1.jpg" alt="MY ALT TEXT"/>
+                        <h2 class="subtitle has-text-centered">
+                            Second image description.
+                        </h2>
+                    </div>
+                    <div class="item">
+                        <!-- Your image here -->
+                        <img src="static/images/texture_sample_1.jpg" alt="MY ALT TEXT"/>
+                        <h2 class="subtitle has-text-centered">
+                            Third image description.
+                        </h2>
+                    </div>
+                    <div class="item">
+                        <!-- Your image here -->
+                        <img src="static/images/texture_sample_2.jpg" alt="MY ALT TEXT"/>
+                        <h2 class="subtitle has-text-centered">
+                            Fourth image description.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End image carousel -->
+
+    <p class="intro">This thesis project focuses on generating organic forms and textures by leveraging 3D Generative AI.</p>
 
     <h2>Motivation</h2>
     <p>Our goal in conducting this research was to introduce nuance and unpredictability to the design process of 3D objects...</p>
